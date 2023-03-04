@@ -10,4 +10,8 @@ void NewArray(string[] text)
         text[i] = Console.ReadLine();
     }
 }
+string[] text = new string[5];
+Console.WriteLine("Введите 5 различных наборов символов: ");
+NewArray(text);
+Console.WriteLine("Ваш массив: [" + string.Join(", ", text) + "]");
 
